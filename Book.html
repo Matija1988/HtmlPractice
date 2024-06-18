@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./styles.css">
+<html>
+
+<head>
+    <div>
+        <ul class="navBar">
+            <li class="navBarli"><a href="./Index.html">Home</a></li>
+            <li class="navBarli"><a href="./Author.html">Author</a></li>
+            <li class="navBarli"><a href="./Book.html">Book</a></li>
+
+        </ul>
+    </div>
+    <h2 class="titleText">Author</h2>
+</head>
+
+<body>
+    <div id="wrapper">
+       
+        <div class="selectsAndLabels">
+            <label for="genres-select">Choose a genre:</label>
+
+            <select name="genres-select" id="genres-select">
+                <option value="">--Please choose an option--</option>
+                <option value="Sci-fi">Sci-fi</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="History">History</option>
+            </select>
+            <form>
+                <div>
+                    <label>Search</label>
+                    <input type="text" class="searchBook" />
+                </div>
+            </form>
+
+        </div>
+        <div class="btnDiv">
+            <form action="./CreateAuthor.html">
+                <button class="createBtn" type="submit">Create new book</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="tableDiv">
+        <table class="table">
+            <caption class="tableCaption">Books</caption>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Title</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Author</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>The Hitchhiker's Guide to the Galaxy</td>
+                <td>Sci-fi</td>
+                <td>Douglas Adams</td>
+                <td>
+                    <button class="updateBtn">Update</button>
+                    <button class="deleteBtn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>I, robot</td>
+                <td>Sci-fi</td>
+                <td>Isaac Asimov</td>
+                <td>
+                    <button class="updateBtn">Update</button>
+                    <button class="deleteBtn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>The Expanse - Leviathan wakes</td>
+                <td>Sci-fi</td>
+                <td>James S.A. Corey</td>
+                <td>
+                    <button class="updateBtn">Update</button>
+                    <button class="deleteBtn">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

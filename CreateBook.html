@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./styles.css">
+<html>
+
+<head>
+    <div>
+        <ul class="navBar">
+            <li class="navBarli"><a href="./Index.html">Home</a></li>
+            <li class="navBarli"><a href="./Author.html">Author</a></li>
+            <li class="navBarli"><a href="./Book.html">Book</a></li>
+           
+        </ul>
+    </div>
+    <div class="indexHead">
+        <h1 class="titleTextMain">Book</h1>
+    </div>
+</head>
+<body>
+    <div class="wrapperCreatePage">
+        <form class="inputForm">
+            <div>
+                <label>First name</label>
+                <input type="text" name="First name" class="formTxtInput" />
+            </div>
+            <div>
+                <label>Last name</label>
+                <input type="text" name="Last name" class="formTxtInput" />
+            </div>
+            <div>
+                <label for="genres-select">Choose a genre:</label>
+
+                <select name="genres-select" id="genres-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Sci-fi">Sci-fi</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Action">Action</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="History">History</option>
+                </select>
+            </div>
+            <div>
+                <form action="">
+                    <button class="createBtn" type="submit">Create</button>
+                </form>
+                <form action="./Author.html">
+                    <button class="backBtn" type="submit">Back</button>
+                </form>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
