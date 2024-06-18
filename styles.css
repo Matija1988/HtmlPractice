@@ -185,3 +185,9 @@
     grid-row: 1;  
     grid-column: 1;
 }
+
+#detailsBackBtn {
+    padding: 2%;
+    width: 20%;
+    margin-left: 5%;
+}
